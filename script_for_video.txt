@@ -1,0 +1,18 @@
+Hello this is Josh Hunter, displaying my program for KF6007, Artificial Intelligence and Robotics
+What I have made is a multi-algorithm assisted learning based system to play the game snake
+
+The algorithms I am using is primarily an Artificial Neural Network with an accuracy of 85% and a confirmation algorithm which is a decision tree
+with an accuracy of 95%
+(run the game)
+How the game works is that on any given frame, the AI is given an array, the array corresponds to the snakes "vision" as shown with the colours
+coming off the snake, the red checks for walls and the purple checks for food, the Neural Network then navigates the game, attempting to collect as
+much food as possible without dying, the food is placed by the player who is supposed to attempt to make the snake lose, causing a man v machine 
+type of gameplay
+I'm going to let this run for a little bit, just to show it off, I'll speed it up for you.
+(snake gameplay)
+
+So the neural network lost in "x" moves, and as you can see, the decision tree kicked in and suggested a move, which was the correct move, if the
+neural net just had this in their training data ideally it wouldn't have died here, so I press Y and if I show you the NN's training data, you can see
+this scenario has been added
+Now in the small chance that both AI were wrong, I could input the correct move by pressing N and then the correct direction, which would add that to
+the branching tree's dataset
